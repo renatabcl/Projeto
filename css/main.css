@@ -17,6 +17,7 @@
             background-color: rgb(167, 164, 164);
             width: 800px;
             padding: 0 0 30px 0;
+            margin-left: 20px;
             
         }
 
@@ -45,9 +46,9 @@
             width: 350px;
             padding: 0 0 30px 0;
             display: inline-block;
-            margin: 20px;
+            margin: 30px;
+            border-radius: 10px;
         }
-
         .titulo-cursos{
             background-color: gray;
             text-align: center;
@@ -56,5 +57,13 @@
         .caixa-text-cursos {
             width: 250px;
             text-align: justify;
+
         }
-        
+        .dicas{
+            background-color: rgb(167, 164, 164);
+            display: inline-block;
+            width: 500px;
+            overflow-y: scroll;
+            margin-left: 20px;
+            text-align: justify;
+        }
